@@ -1,0 +1,159 @@
+
+
+
+#section01{
+    background: orange;
+}
+
+
+
+#section02{
+    background: dodgerblue;
+    height: 500px;
+}
+
+.swiper{
+
+    /* max-width: 500px; */
+    width: 100vw;
+    height: 500px;
+}
+.swiper .swiper-slide {
+    overflow: hidden;
+}
+
+.swiper .swiper-slide::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left: 0;
+    top:0;
+    background:rgba(0, 0, 0, 0.61);
+}
+
+.swiper .swiper-slide .text_container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+
+}
+
+
+
+.swiper .swiper-slide .text_container > * {
+    transform: translateY(1rem);
+    opacity: 0;
+    transition: all .2s;
+
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .text_container > * {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .5s;
+}
+
+.swiper .swiper-slide.swiper-slide-active .text_container > *:nth-child(1){transition-delay:1.2s}
+.swiper .swiper-slide.swiper-slide-active .text_container > *:nth-child(2){transition-delay:1.3s}
+.swiper .swiper-slide.swiper-slide-active .text_container > *:nth-child(3){transition-delay:1.4s}
+.swiper .swiper-slide.swiper-slide-active .text_container > *:nth-child(4){transition-delay:1.5s}
+
+
+.swiper .swiper-slide .text_container h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.swiper .swiper-slide .text_container > div{
+    margin-bottom:15px;
+}
+
+.swiper .swiper-slide .text_container .more{
+    padding: 1rem;
+    border: 1px solid #fff;
+    cursor: pointer;;
+}
+
+.swiper .swiper-slide  > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.swiper .swiper-slide img{
+
+    height: 100%;
+    transform: scale(1.2)
+}
+
+#section03{
+    background: gray;
+    height: 400vh;
+}
+
+.trigger-this-3{
+    height: 100%;
+}
+
+.fix-this-3{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+
+.fix-this-3 > section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fix-this-3 > section .visual{
+    width:  70vw;
+    height: 50vh;
+    border-radius: 1rem;
+    background: #fff;
+    
+}
+
+.fix-this-3 > section .number{
+    font-size: 20rem;
+    position: absolute;
+    left: 5rem;
+    top : 5rem;
+    color: rgb(51, 51, 51);
+    
+}
+
+
+#section04{
+    background: hotpink;
+}
+
+
+#section05{
+    background: aqua;
+}
+
+
+
+
+
+
+
+
+
+
