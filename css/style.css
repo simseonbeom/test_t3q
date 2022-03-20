@@ -139,8 +139,8 @@
 .fix-this-3 > section .number{
     font-size: 20rem;
     position: absolute;
-    left: 5rem;
-    top : 5rem;
+    left: -1rem;
+    top : -1rem;
     color: rgb(51, 51, 51);
     
 }
