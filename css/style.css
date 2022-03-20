@@ -85,7 +85,7 @@
 .swiper .swiper-slide .text_container .more{
     padding: 1rem;
     border: 1px solid #fff;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .swiper .swiper-slide  > div:nth-child(1){
@@ -99,7 +99,7 @@
 .swiper .swiper-slide img{
 
     height: 100%;
-    transform: scale(1.2)
+    transform: scale(1.4)
 }
 
 #section03{
