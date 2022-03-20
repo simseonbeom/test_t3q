@@ -36,9 +36,9 @@ window.addEventListener('DOMContentLoaded', function () {
         // Optional parameters
         direction: 'vertical',
         speed: 1200,
-        autoplay: {
-            delay:3000,
-        },
+        // autoplay: {
+        //     delay:3000,
+        // },
         loop: true,
         parallax: true,
 

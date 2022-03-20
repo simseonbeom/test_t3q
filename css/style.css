@@ -16,14 +16,14 @@
 
 #section02{
     background: dodgerblue;
-    height: 500px;
+    height: initial;
 }
 
 .swiper{
 
     /* max-width: 500px; */
     width: 100vw;
-    height: 500px;
+    height: 70vh;
 }
 .swiper .swiper-slide {
     overflow: hidden;
@@ -38,6 +38,34 @@
     top:0;
     background:rgba(0, 0, 0, 0.61);
 }
+
+.swiper .swiper-slide > div:first-child{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.swiper .slide01 > div:first-child{
+    background: url("../img/img01.png") no-repeat center; 
+    background-size:cover;
+}
+
+.swiper .slide02 > div:first-child{
+    background: url("../img/img02.png") no-repeat center;
+    background-size:cover;
+}
+
+.swiper .slide03 > div:first-child{
+    background: url("../img/img03.png") no-repeat center;
+    background-size:cover;
+}
+
+.swiper .slide04 > div:first-child{
+    background: url("../img/img04.png") no-repeat center;
+    background-size:cover;
+}
+
+
 
 .swiper .swiper-slide .text_container{
     position: absolute;
